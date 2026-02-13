@@ -9,3 +9,4 @@ wordninja>=2.0.0
 scikit-learn>=1.0.2
 pdfminer.six==20231228
 # The requirements.txt must ensure that only necessary external dependencies are introduced. If there are new dependencies to add, please contact the project administrator.
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
